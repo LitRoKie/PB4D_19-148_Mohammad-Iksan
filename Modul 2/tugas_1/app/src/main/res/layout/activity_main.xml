@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Implementasi Linear Layout -->
+    <TextView
+        android:text="Implementasi Linear Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="#000000">
+
+        <TextView
+            android:text="Nama : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <!-- Implementasi Relative Layout -->
+    <TextView
+        android:text="Implementasi Relative Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#000000">
+
+        <TextView
+            android:text="Email : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress" />
+
+    </RelativeLayout>
+
+    <!-- Implementasi Frame Layout -->
+    <TextView
+        android:text="Implementasi Frame Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#F2F2F2">
+
+        <ImageView
+            android:src="@drawable/ic_launcher_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:text="Logo Perusahaan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+    <!-- Implementasi Table Layout -->
+    <TextView
+        android:text="Implementasi Table Layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:stretchColumns="0,1">
+
+        <!-- Header Row -->
+        <TableRow>
+            <TextView
+                android:text="Name"
+                android:textStyle="bold"
+                android:padding="5dp"/>
+
+            <TextView
+                android:text="Age"
+                android:textStyle="bold"
+                android:padding="5dp"/>
+
+            <TextView
+                android:text="Gender"
+                android:textStyle="bold"
+                android:padding="5dp"/>
+        </TableRow>
+
+        <!-- Data Row 1 -->
+        <TableRow>
+            <TextView
+                android:text="John Doe"
+                android:padding="5dp"/>
+
+            <TextView
+                android:text="25"
+                android:padding="5dp"/>
+
+            <TextView
+                android:text="Male"
+                android:padding="5dp"/>
+        </TableRow>
+
+        <!-- Data Row 2 -->
+        <TableRow>
+            <TextView
+                android:text="Jane Doe"
+                android:padding="5dp"/>
+
+            <TextView
+                android:text="30"
+                android:padding="5dp"/>
+
+            <TextView
+                android:text="Female"
+                android:padding="5dp"/>
+        </TableRow>
+
+        <!-- Data Row 3 -->
+        <TableRow>
+            <TextView
+                android:text="Bob Smith"
+                android:padding="5dp"/>
+
+            <TextView
+                android:text="40"
+                android:padding="5dp"/>
+
+            <TextView
+                android:text="Male"
+                android:padding="5dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ExplanationActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apa itu Youtube?"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Youtube adalah platform video sharing yang memungkinkan pengguna untuk mengunggah, menonton, dan berbagi video secara online. Didirikan pada tahun 2005, Youtube sekarang telah menjadi salah satu situs web terbesar di dunia dan merupakan sumber populer untuk video tentang berbagai topik, termasuk musik, game, fashion, teknologi, dan banyak lagi."
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bagaimana cara menggunakan Youtube?"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Buka aplikasi Youtube atau buka situs web youtube.com di browser Anda.\n\n2. Masukkan kata kunci atau judul video yang ingin Anda tonton di kolom pencarian.\n\n3. Setelah menemukan video yang diinginkan, klik judul video untuk memutar video tersebut.\n\n4. Anda dapat mengubah kualitas video, menonaktifkan/mengaktifkan suara, dan menggunakan fitur lainnya dengan mengeklik ikon yang tersedia di bawah layar pemutaran video."
+        android:textSize="16sp"/>
+
+</LinearLayout>
